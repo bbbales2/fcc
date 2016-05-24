@@ -10,10 +10,6 @@ basis = numpy.array([[0.0, 0.0, 0.0],
                     [0.0, 1.0 / 2.0, 1.0 / 2.0],
                     [1.0 / 2.0, 0.0, 1.0 / 2.0]])
 
-ang1 = numpy.arctan(2.0 / numpy.sqrt(2.0))
-
-distance = (numpy.sqrt(2.0) / 2.0) * numpy.sin(ang1) / numpy.sin(numpy.pi - ang1 - numpy.pi / 4.0)
-print distance
 d = numpy.sqrt(3.0) / 3
 
 l111 = numpy.array((1.0, 1.0, 1.0))
